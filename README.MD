@@ -4,23 +4,7 @@
 2.  Verfiy if installed `terraform -help`
 3.  To upgrade terraform `brew update`
 
-## Get more info on a terraform command |  terraform -help <command>
-eg:  `terraform -help plan`
-
-## Initialize terraform to download the required plugin(s)
-`terraform init`
-
-## Preview the changes terraform will make
-`terraform plan`
-
-## Provision your declarations
-`terraform apply`
-
-## Format your configurations for easy readability
-`terraform fmt`
-
-## Validate your definitions
-`terraform validate`
-
-## Pass variables to apply command
-eg: `terraform apply -var 'instance_name=ExampleAppServerInstance2'`
+## How to use
+1.  Change to terraform-folder/
+2.  Run `terraform init && terraform plan`
+3.  Run `terraform apply ` to spin-up the infrastructure
